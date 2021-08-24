@@ -33,7 +33,9 @@ public class ChanRipper extends AbstractHTMLRipper {
             new ChanSite("thebarchive.com"),
             new ChanSite("archiveofsins.com"),
             new ChanSite("archive.nyafuu.org"),
-            new ChanSite("rbt.asia")
+            new ChanSite("rbt.asia"),
+            new ChanSite("reinchan.net"),
+            new ChanSite("1500chan.org")
         );
     private static List<ChanSite> user_give_explicit_domains = getChansFromConfig(Utils.getConfigString("chans.chan_sites", null));
     private static List<ChanSite> explicit_domains = new ArrayList<>();
